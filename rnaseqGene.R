@@ -1,3 +1,4 @@
+# as downloaded from 'R script' component of https://bioconductor.org/packages/release/workflows/html/rnaseqGene.html 7 Sept 2019
 ## ----style, echo=FALSE, message=FALSE, warning=FALSE, results="asis"-------
 library("BiocStyle")
 library("knitr")
