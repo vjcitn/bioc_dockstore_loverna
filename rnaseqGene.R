@@ -1,6 +1,8 @@
 # as downloaded from 'R script' component of https://bioconductor.org/packages/release/workflows/html/rnaseqGene.html 7 Sept 2019
 ## ----style, echo=FALSE, message=FALSE, warning=FALSE, results="asis"-------
+# following line added to employ R packages for dockstore deployment using Bioc 3.10
 .libPaths(c(paste0("packrat/", c("lib", "lib-ext", "lib-R"), "/x86_64-pc-linux-gnu/3.6.0"), .libPaths()))
+#
 library("BiocStyle")
 library("knitr")
 library("rmarkdown")
