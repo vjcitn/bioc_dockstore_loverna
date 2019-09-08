@@ -1,5 +1,10 @@
 workflow rnaseqGene {
   call runR
+  meta {
+        author: "Mike Love/VJ Carey"
+        email: "stvjc@channing.harvard.edu"
+        description: "Dockstore deployment of a Bioconductor 3.10 workflow."
+    }
 }
 
 task runR {
