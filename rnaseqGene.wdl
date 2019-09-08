@@ -9,7 +9,7 @@ workflow rnaseqGene {
 
 task runR {
  #File workflow_script = "https://raw.githubusercontent.com/vjcitn/bioc_dockstore_loverna/master/rnaseqGene.R"
- File workflow_script = "gs://vjc_scripts/rnaseqGene.R
+ File workflow_script = "gs://vjc_scripts/rnaseqGene.R"
  command {
   pip install gsutil
   gsutil cp gs://bioc_pkgs_aug_2019/loverna_packrat_pkgs.zip .
