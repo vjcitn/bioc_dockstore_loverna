@@ -9,7 +9,8 @@ workflow rnaseqGene {
 
 task runR {
 # for terra following must have a gs protocol
- File workflow_script = "https://raw.githubusercontent.com/vjcitn/bioc_dockstore_loverna/master/rnaseqGene_bioc3.8.R"
+#File workflow_script = "https://raw.githubusercontent.com/vjcitn/bioc_dockstore_loverna/master/rnaseqGene_bioc3.8.R"
+ File workflow_script = "gs://vjc_scripts/rnaseqGene_bioc3.8.R"
  command {
   pip install gsutil --upgrade
   gsutil cp gs://bioc_pkgs_aug_2019/loverna_packrat_pkgs_bioc3.8.zip .
